@@ -1,8 +1,5 @@
 # Fingerprint-Based Blood Group Detection Using CNN
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Python](https://img.shields.io/badge/python-3.8%2B-blue)
-![Accuracy](https://img.shields.io/badge/accuracy-88%25-brightgreen)
 
 ## 📄 Abstract
 Blood sample collection and laboratory testing for traditional blood group detection can be time-consuming, intrusive, and resource-intensive. This project presents a novel, non-invasive technique for classifying blood groups using Convolutional Neural Networks (CNNs) and fingerprint-based analysis. 
@@ -20,7 +17,7 @@ The model is trained and evaluated using the **Finger Print Based Blood Group Da
 * **Size:** 6,000+ labeled fingerprint images (bmp format).
 * **Classes:** 8 (A+, A-, B+, B-, AB+, AB-, O+, O-).
 * **Source:** Kaggle (Author: R. Mavinmar)
-* **Link:** [Download Dataset Here](https://www.kaggle.com/datasets/rajumavinmar/fingerprint-based-blood-group-dataset?resource=download)
+* **Link:** [Download Dataset Here](https://www.kaggle.com/datasets/rajumavinmar/finger-print-based-blood-group-dataset)
 
 ## ⚙️ Workflow Architecture
 The system follows a linear pipeline from data collection to final deployment in a user-facing application:
@@ -33,12 +30,12 @@ The system follows a linear pipeline from data collection to final deployment in
 4. **Model Training:** Training the CNN on the labeled fingerprint dataset.
 5. **Model Evaluation:** Testing for precision, recall, and an overall accuracy of 88%.
 6. **Blood Group Prediction:** Classifying new inputs into one of the 8 blood groups.
-7. **Web Application:** Deploying the model into an accessible, user-friendly interface.
+7. **Web Application:** Designed a user-friendly local web interface to interact with the model.
 
 ## 🛠️ Tech Stack
 * **Machine Learning & AI:** Python, Convolutional Neural Networks (CNNs), TensorFlow , Keras
 * **Data Processing:** Pandas, NumPy, OpenCV (for image preprocessing)
-* **Frontend Development:**  HTML5
+* **Frontend Development:** HTML5
 * **Backend :** Flask
 
 ## 📚 Publication Details
